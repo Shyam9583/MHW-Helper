@@ -82,4 +82,10 @@ dependencies {
     def koin_version = "2.1.5"
     implementation "org.koin:koin-android-viewmodel:$koin_version"
 
+    //firebase auth
+    implementation "com.google.firebase:firebase-auth-ktx:19.3.2"
+
+    //firebase store
+    implementation "com.google.firebase:firebase-firestore-ktx:21.5.0"
+
 }
